@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView javaRow;
     Animation anim;
 
-    String secret_messag = "1234567890";
-    String secret_message = String.format("%0" + 10 + "d", 0).replace("0",secret_messag);;
+    String secret_message = "What is your problem? Maksim";
+    // String secret_message = String.format("%0" + 10 + "d", 0).replace("0",secret_messag);;
 
 
     Bitmap bmpJava;
