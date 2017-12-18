@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.hard.light.eight5.MainActivity"
     android:orientation="vertical">
+
+
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -23,6 +25,45 @@
                 android:onClick="decrypt"/>
 
         </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/c_row"
+            android:layout_height="20dp"
+            android:layout_width="1dp"
+            android:layout_margin="5dp">
+        </ImageView>
+            <TextView
+                android:text="C"
+                android:layout_height="20dp"
+                android:layout_width="30dp">
+            </TextView>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/java_row"
+            android:layout_height="20dp"
+            android:layout_width="1dp"
+            android:layout_margin="5dp">
+        </ImageView>
+        <TextView
+            android:text="Java"
+            android:layout_height="20dp"
+            android:layout_width="30dp">
+        </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -34,6 +75,42 @@
             android:textSize="20sp"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/decodeC"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:id="@+id/decodeJava"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/encodeC"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:id="@+id/encodeJava"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+
 
     </LinearLayout>
         <LinearLayout
